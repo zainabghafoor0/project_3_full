@@ -69,7 +69,7 @@ Total encoded bits: 18
 
 ## Output Format
 
-**filename.hdr** (codebook):
+**TheBells.hdr** (codebook):
 ```
 cat 000
 dog 001
@@ -78,7 +78,7 @@ ran 10
 the 11
 ```
 
-**filename.code** (encoded, 80 chars/line):
+**TheBells.code** (encoded, 80 chars/line):
 ```
 1100110110011011000001100110110011011
 ```
