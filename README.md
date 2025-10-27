@@ -44,14 +44,14 @@ make
 ## Usage
 
 ```bash
-./huffman_encoder input_output/filename.txt
+./huffman_encoder input_output/TheBells.txt
 ```
 
 **Output Files:**
-- `filename.tokens` - Tokenized words
-- `filename.freq` - Word frequencies
-- `filename.hdr` - Codebook (word→code)
-- `filename.code` - Encoded bitstream
+- `TheBells.tokens` - Tokenized words
+- `TheBells.freq` - Word frequencies
+- `TheBells.hdr` - Codebook (word→code)
+- `TheBells.code` - Encoded bitstream
 
 **Example Output:**
 ```
