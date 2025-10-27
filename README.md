@@ -47,12 +47,6 @@ g++ -std=c++20 *.cpp -Wall -o p3_complete.x
 ```
 ---
 
-## Usage
-
-```bash
-./huffman_encoder input_output/TheBells.txt
-```
-
 **Output Files:**
 - `TheBells.tokens` - Tokenized words
 - `TheBells.freq` - Word frequencies
