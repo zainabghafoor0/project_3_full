@@ -84,7 +84,8 @@ the 11
 ```
 
 **Made Changes:
-```on the compile_and_test_project3_final_version.bash, I made these changes
+```
+on the compile_and_test_project3_final_version.bash, I made these changes:
 
 echo -e "\n==> Running: $TARGET on $basefile"
 "./$TARGET" "$basefile"
