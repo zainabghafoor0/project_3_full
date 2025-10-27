@@ -37,7 +37,13 @@ project_3_full/
 
 **Using Makefile:**
 ```bash
-make
+cp /home/faculty/kooshesh/cs315_fall2025/project3/final_version/copy_files.bash .
+cp /home/faculty/kooshesh/cs315_fall2025/project3/final_version/compile_and_test_project3_final_version.bash
+bash ./copy_files.bash
+bash ./compile_and_test_project3_final_version.bash
+
+g++ -std=c++20 *.cpp -Wall -o p3_complete.x
+./p3_complete.x input_output/TheBells.txt
 ```
 ---
 
