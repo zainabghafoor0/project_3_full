@@ -82,3 +82,16 @@ the 11
 ```
 1100110110011011000001100110110011011
 ```
+
+**Made Changes
+```
+on the compile_and_test_project3_final_version.bash, I made these changes:
+
+echo -e "\n==> Running: $TARGET on $basefile"
+"./$TARGET" "$basefile"
+
+to
+
+echo -e "\n==> Running: $TARGET on $basefile"
+"./$TARGET" "$INPUT_DIR/$basefile"
+```
